@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- fontawesome cdn For Icons -->
+    <script src="https://kit.fontawesome.com/d67c581f6d.js" crossorigin="anonymous"></script>
+
+    <title>Shoppers Hub</title>
+</head>
+
+<body id="top">
+    <!-- Navbar Section -->
+    <section class="nav-menu" id="nav-menu">
+        <div class="container-fluid px-0 shadow">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" class="img img-fluid" width="120px" alt="brand logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="category.html">Category</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <div class="search mr-3">
+                            <a href="search.html" class="btn btn-sm btn-outline-dark">
+                                Search
+                            </a>
+                        </div>
+                        <div class="cart">
+                            <a href="cart.html">
+                                <i class="fa-solid fa-cart-shopping fa-2x" style="color: #000;"></i>
+                                <span class="badge badge-pill badge-dark">2</span>
+                            </a>
+                        </div>
+                    </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Order Conoformation Section -->
+    <section class="order_confo py-5 my-4" id="order_confo">
+        <div class="container">
+            <div class="section_title text-center mb-5">
+                <h1 class="text-capitalize">Order Placed Successfully!</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mx-auto text-center">
+                    <div>
+                        <img src="assets/images/tick.jpg" class="img img-fluid" alt="success" width="300px">
+                    </div>
+                    <div>
+                        <h2>Thank You For Your Purchase!</h2>
+                        <h6>A confirmation has been sent to your email.</h6>
+                        <h6><span class="mr-2">Order No:</span><span id="randomNumber"></span></h6>
+                        <h6>
+                            <span class="mr-2">Order Status:</span>
+                            <span>
+                                <b>
+                                    <span class="badge badge-pill badge-danger">Pending</span>
+                                </b>
+                            </span>
+                        </h6>
+                        <a href="index.html" class="btn btn-primary btn-lg mt-5">Back To Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+    <!-- Footer Section -->
+    <section class="footer-sec pt-5 pb-2" id="footer-sec">
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 col-6 pl-5 pl-small-15">
+                        <div class="footer_title">
+                            <a href="index.html"><img src="assets/images/logo.png" width="150px" class="img img-fluid"
+                                    alt="Logo"></a>
+                        </div>
+                        <div>
+                            Stay Trendy! <br> Stay Fashionable!
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Quick Links</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="javascript:;">Offers & Discounts</a></li>
+                                <li><a href="javascript:;">Get Coupon</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>New Products</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="javascript:;">Womens Clothing</a></li>
+                                <li><a href="javascript:;">Fashion Accessories</a></li>
+                                <li><a href="javascript:;">Mens Fashion</a></li>
+                                <li><a href="javascript:;">Kids Fashion</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="footer_title pt-3 mb-3">
+                            <h3>Support</h3>
+                        </div>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="javascript:;">Frequently Asked Questions</a></li>
+                                <li><a href="javascript:;">Terms & Conditions</a></li>
+                                <li><a href="javascript:;">Privacy Policy</a></li>
+                                <li><a href="javascript:;">Report an Issue</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top">
+                <h6 class="text-center mt-3">Copyright ©2023 Sameer Maitre. All Rights Reserved.</h6>
+            </div>
+        </footer>
+    </section>
+    <!-- Back To Top Button -->
+    <div class="backtop">
+        <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">
+            <i class="fa-solid fa-chevron-up text-dark"></i>
+        </a>
+    </div>
+    
+
+    <!-- Function To Generate Random Number-->
+    <script>
+        function generateRandomNumber() {
+            //Generate Random 10 digit number
+            let randomNumber = Math.floor(1000000000 + Math.random() * 9000000000);
+            while(randomNumber.toString()[0]==='0') 
+            {
+                randomNumber = Math.floor(1000000000 + Math.random() * 9000000000);
+            }
+            return randomNumber;
+        }
+        
+        //Display Random Number on the page
+        const randomNum = generateRandomNumber();
+        document.getElementById('randomNumber').textContent = randomNum;
+    </script>
+
+    <!--jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

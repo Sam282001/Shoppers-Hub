@@ -1,0 +1,53 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.nav-menu {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.caro-img {
+    height: 650px;
+    object-fit: cover;
+}
+
+
+.feature {
+    /* background: rgb(0,121,230);
+    background: linear-gradient(0deg, rgba(0,121,230,1) 0%, rgba(0,250,255,1) 90%); */
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.section_title {
+    text-decoration: underline;
+}
+
+#cart-bg {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.list-group-item {
+    background: none;
+}
+
+.bg_checkout_1 {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.avatar {
+    width: 300px;
+    height: 250px;
+}
+
+.carousel-control-prev.left {
+    left: -100px;
+}
+
+.carousel-control-next.right {
+    right: -100px;
+}
